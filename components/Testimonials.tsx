@@ -1,6 +1,6 @@
 const pillars = [
-  ['Pressao', 'Controle de distancia, quedas, passagem e finalizacoes conectadas por tomada de decisao.'],
-  ['Tecnica', 'Ajustes simples, repetiveis e testados em competicao para alunos de diferentes niveis.'],
+  ['Pressão', 'Controle de distância, quedas, passagem e finalizações conectadas por tomada de decisão.'],
+  ['Técnica', 'Ajustes simples, repetíveis e testados em competição para alunos de diferentes níveis.'],
   ['Legado', 'Uma metodologia que preserva a raiz do Jiu-Jitsu brasileiro com leitura moderna de treino.']
 ]
 
@@ -8,8 +8,8 @@ export function Testimonials() {
   return (
     <section id="seminarios" className="testimonials sectionShell">
       <div className="sectionTitle compact fadeInUp">
-        <p className="eyebrow">Seminarios e metodologia</p>
-        <h2>Mais que tecnica. Uma experiencia de evolucao no tatame.</h2>
+        <p className="eyebrow">Seminários e metodologia</p>
+        <h2>Mais que técnica. Uma experiência de evolução no tatame.</h2>
       </div>
       <div className="testimonialGrid">
         {pillars.map(([title, text], index) => (

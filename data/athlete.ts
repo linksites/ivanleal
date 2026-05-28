@@ -2,14 +2,14 @@ export const athlete = {
   name: 'Ivan Leal',
   brand: 'Ivan Leal JJ',
   handle: '@ivanlealjj',
-  origin: 'Belem/PA',
+  origin: 'Belém/PA',
   base: 'Lisboa, Portugal',
-  headline: 'Jiu-Jitsu de pressao, tecnica e legado.',
+  headline: 'Jiu-Jitsu de pressão, técnica e legado.',
   subheadline:
-    'Mestre faixa-preta, competidor internacional e Double Gold no European. De Belem para Lisboa, Ivan Leal leva o Jiu-Jitsu brasileiro a academias, eventos e atletas que buscam evolucao real.',
+    'Mestre faixa-preta, competidor internacional e Double Gold no European. De Belém para Lisboa, Ivan Leal leva o Jiu-Jitsu brasileiro a academias, eventos e atletas que buscam evolução real.',
   bio: [
-    'Mestre Ivan Leal e faixa-preta de Jiu-Jitsu, natural de Belem do Para e radicado em Lisboa, Portugal. Sua trajetoria combina competicao, ensino e uma leitura apurada do combate.',
-    'Como atleta e professor, Ivan construiu uma metodologia baseada em pressao inteligente, controle posicional e tomada de decisao. O resultado e um Jiu-Jitsu objetivo, tecnico e aplicavel para alunos e competidores.',
-    'O projeto Ivan Leal JJ organiza essa autoridade em uma presenca digital preparada para seminarios, convites, conteudo, contato direto e futuras integracoes com Instagram, WhatsApp e painel administrativo.'
+    'Mestre Ivan Leal é faixa-preta de Jiu-Jitsu, natural de Belém do Pará e radicado em Lisboa, Portugal. Sua trajetória combina competição, ensino e uma leitura apurada do combate.',
+    'Como atleta e professor, Ivan construiu uma metodologia baseada em pressão inteligente, controle posicional e tomada de decisão. O resultado é um Jiu-Jitsu objetivo, técnico e aplicável para alunos e competidores.',
+    'O projeto Ivan Leal JJ organiza essa autoridade em uma presença digital preparada para seminários, convites, conteúdo, contato direto e futuras integrações com Instagram, WhatsApp, formulário e painel administrativo.'
   ]
 }

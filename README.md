@@ -1,6 +1,6 @@
 # Ivan Leal JJ — Site institucional
 
-Projeto inicial em Next.js + TypeScript para o site do mestre e atleta Ivan Leal JJ.
+Projeto em Next.js + TypeScript para o site institucional do mestre e atleta Ivan Leal JJ.
 
 ## Objetivo
 
@@ -33,4 +33,4 @@ http://localhost:3000
 - Criar formulário funcional com API
 - Adicionar CMS ou painel administrativo
 - Fazer deploy na Vercel
-- Melhorar SEO local para Portugal/Brasil
+- Melhorar SEO local para Portugal e Brasil

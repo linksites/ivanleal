@@ -4,12 +4,12 @@ export function Footer() {
       <div className="sectionShell footerInner">
         <div>
           <strong>Ivan Leal<span>JJ</span></strong>
-          <p>Jiu-Jitsu de pressao, tecnica e legado.</p>
+          <p>Jiu-Jitsu de pressão, técnica e legado.</p>
         </div>
-        <nav aria-label="Links do rodape">
+        <nav aria-label="Links do rodapé">
           <a href="#sobre">Sobre</a>
           <a href="#galeria">Galeria</a>
-          <a href="#videos">Videos</a>
+          <a href="#videos">Vídeos</a>
           <a href="#contato">Contato</a>
         </nav>
         <div className="footerSocial">

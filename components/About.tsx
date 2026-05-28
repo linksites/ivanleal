@@ -13,11 +13,11 @@ export function About() {
         <h3>Atleta. Professor. Competidor. Mentor.</h3>
         {athlete.bio.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         <div className="aboutHighlights">
-          <span>Metodologia de pressao</span>
-          <span>Seminarios internacionais</span>
-          <span>Formacao para atletas</span>
+          <span>Metodologia de pressão</span>
+          <span>Seminários internacionais</span>
+          <span>Formação para atletas</span>
         </div>
-        <a className="button outline" href="#conquistas">Conhecer trajetoria</a>
+        <a className="button outline" href="#conquistas">Conhecer trajetória</a>
       </div>
     </section>
   )

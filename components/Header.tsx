@@ -7,8 +7,8 @@ const links = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Conquistas', href: '#conquistas' },
   { label: 'Galeria', href: '#galeria' },
-  { label: 'Videos', href: '#videos' },
-  { label: 'Seminarios', href: '#seminarios' },
+  { label: 'Vídeos', href: '#videos' },
+  { label: 'Seminários', href: '#seminarios' },
   { label: 'Contato', href: '#contato' }
 ]
 
@@ -42,7 +42,7 @@ export function Header() {
         Ivan Leal<span>JJ</span>
       </a>
 
-      <nav className="nav" aria-label="Navegacao principal">
+      <nav className="nav" aria-label="Navegação principal">
         {links.map((link) => (
           <a
             key={link.href}
@@ -61,13 +61,14 @@ export function Header() {
         event.preventDefault()
         handleLinkClick('#contato')
       }}>
-        Agendar seminario
+        Agendar seminário
       </a>
 
       <button
         className={`mobileMenuBtn ${isMenuOpen ? 'open' : ''}`}
         onClick={() => setIsMenuOpen((open) => !open)}
-        aria-label="Abrir menu"
+        aria-controls="mobile-menu"
+        aria-label={isMenuOpen ? 'Fechar menu' : 'Abrir menu'}
         aria-expanded={isMenuOpen}
         type="button"
       >
@@ -76,7 +77,7 @@ export function Header() {
         <span />
       </button>
 
-      <div className={`mobileMenu ${isMenuOpen ? 'open' : ''}`}>
+      <div id="mobile-menu" className={`mobileMenu ${isMenuOpen ? 'open' : ''}`}>
         {links.map((link) => (
           <a
             key={link.href}
