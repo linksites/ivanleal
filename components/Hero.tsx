@@ -12,15 +12,16 @@ export function Hero() {
     <section id="home" className="hero sectionShell" style={heroStyle}>
       <div className="heroCopy">
         <p className="eyebrow fadeInUp">Do Brasil para o mundo.</p>
-        <h1 className="fadeInUp delay-100">
+        <p className="heroName fadeInUp delay-100">Mestre Ivan Leal</p>
+        <h1 className="fadeInUp delay-200">
           Jiu-jitsu de pressão, <span>técnica</span> e <span>legado.</span>
         </h1>
-        <p className="heroText fadeInUp delay-200">{athlete.subheadline}</p>
-        <div className="heroActions fadeInUp delay-300">
+        <p className="heroText fadeInUp delay-300">{athlete.subheadline}</p>
+        <div className="heroActions fadeInUp delay-400">
           <a className="button primary" href="#contato">Agendar seminário</a>
           <a className="button secondary" href="#galeria">Ver galeria</a>
         </div>
-        <div className="heroProof fadeInUp delay-400" aria-label="Resumo da trajetória">
+        <div className="heroProof fadeInUp delay-500" aria-label="Resumo da trajetória">
           <span>Double Gold European</span>
           <span>Faixa preta 5º grau</span>
           <span>Base em Paço de Arcos</span>
