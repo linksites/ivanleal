@@ -1,6 +1,6 @@
 import { achievements } from '@/data/achievements'
 
-const statTags = ['Dan', '2x', 'EU', '15+']
+const statTags = ['5º', '2x', 'EU', '15+']
 
 export function Stats() {
   return (

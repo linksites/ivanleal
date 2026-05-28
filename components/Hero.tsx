@@ -22,7 +22,7 @@ export function Hero() {
         </div>
         <div className="heroProof fadeInUp delay-400" aria-label="Resumo da trajetória">
           <span>Double Gold European</span>
-          <span>5º Dan faixa-preta</span>
+          <span>Faixa preta 5º grau</span>
           <span>Base em Paço de Arcos</span>
         </div>
       </div>
