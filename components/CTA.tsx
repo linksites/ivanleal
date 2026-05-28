@@ -16,7 +16,7 @@ export function CTA() {
           <a className="button primary" href="https://www.instagram.com/ivanlealjj/" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
-          <a className="button secondary" href="https://wa.me/351910000000" target="_blank" rel="noopener noreferrer">
+          <a className="button secondary" href="https://wa.me/351934519135" target="_blank" rel="noopener noreferrer">
             WhatsApp
           </a>
         </div>

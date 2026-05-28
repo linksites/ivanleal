@@ -16,7 +16,7 @@ export function Footer() {
           <a href="https://www.instagram.com/ivanlealjj/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             IG
           </a>
-          <a href="https://wa.me/351910000000" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <a href="https://wa.me/351934519135" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
             WA
           </a>
         </div>
