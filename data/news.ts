@@ -5,7 +5,7 @@ export const newsItems = [
     summary:
       'Acompanhe calendários oficiais, eventos de alto nível e movimentações que influenciam atletas, equipes e professores ao longo da temporada.',
     source: 'IBJJF',
-    href: 'https://ibjjf.com/events',
+    href: 'https://ibjjf.com/',
     date: 'Atualização contínua'
   },
   {
