@@ -12,6 +12,7 @@ export function Footer() {
           <a href="#linhagem">Linhagem</a>
           <a href="#galeria">Galeria</a>
           <a href="#videos">Vídeos</a>
+          <a href="#noticias">Notícias</a>
           <a href="#contato">Contato</a>
         </nav>
         <div className="footerSocial">
