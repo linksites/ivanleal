@@ -20,7 +20,7 @@ export function CTA() {
             WhatsApp
           </a>
         </div>
-        <small>Seminários, conteúdos, aulas e agenda podem ser centralizados aqui conforme a operação evoluir.</small>
+        <small>Atendimento direto para seminários, aulas especiais, convites e parcerias com academias.</small>
       </div>
     </section>
   )

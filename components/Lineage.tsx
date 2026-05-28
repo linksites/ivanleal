@@ -28,14 +28,14 @@ export function Lineage() {
         </div>
 
         <div className="lineageNote">
-          <strong>Contexto editorial</strong>
+          <strong>Registro histórico</strong>
           <p>
             Esta seção apresenta a linhagem pública relacionada a Alexey Pickerell e Ricardo
             De La Riva como referência histórica do Jiu-jitsu. Ela não altera a trajetória de
-            Ivan Leal; amplia o site com conteúdo educativo para futuras páginas sobre regras,
-            graduações e história da arte suave.
+            Ivan Leal; reforça a importância da tradição, da memória e das conexões que
+            atravessam gerações no tatame.
           </p>
-          <div className="sourceLinks" aria-label="Fontes consultadas">
+          <div className="sourceLinks" aria-label="Referências da linhagem">
             {lineageSources.map((source) => (
               <a key={source.href} href={source.href} target="_blank" rel="noreferrer">
                 {source.label}

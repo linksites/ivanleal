@@ -10,6 +10,6 @@ export const athlete = {
   bio: [
     'Mestre Ivan Leal é faixa preta 5º grau de Jiu-jitsu, natural de Belém do Pará e radicado em Paço de Arcos, Portugal, onde atua na Gracie Barra. Sua trajetória combina competição, ensino e uma leitura apurada do combate.',
     'Como atleta e professor, Ivan construiu uma metodologia baseada em pressão inteligente, controle posicional e tomada de decisão. O resultado é um Jiu-jitsu objetivo, técnico e aplicável para alunos e competidores.',
-    'O projeto Ivan Leal JJ organiza essa autoridade em uma presença digital preparada para seminários, convites, conteúdo, contato direto e futuras integrações com Instagram, WhatsApp, formulário e painel administrativo.'
+    'A presença Ivan Leal JJ reúne trajetória, método e canais oficiais para seminários, aulas especiais, convites e contato direto com academias, atletas e equipes.'
   ]
 }

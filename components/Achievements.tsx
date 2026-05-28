@@ -19,7 +19,7 @@ export function Achievements() {
           <h2>Resultados que refletem dedicação, método e propósito.</h2>
           <p>
             A trajetória competitiva reforça a autoridade em cada aula, seminário
-            e projeto. O que aparece no pódio nasce de rotina, estratégia e leitura
+            e apresentação. O que aparece no pódio nasce de rotina, estratégia e leitura
             técnica do combate.
           </p>
           <div className="bulletGrid">
