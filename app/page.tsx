@@ -2,6 +2,7 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Stats } from '@/components/Stats'
 import { About } from '@/components/About'
+import { Lineage } from '@/components/Lineage'
 import { Gallery } from '@/components/Gallery'
 import { Videos } from '@/components/Videos'
 import { Achievements } from '@/components/Achievements'
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <About />
+      <Lineage />
       <Gallery />
       <Videos />
       <Achievements />

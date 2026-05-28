@@ -8,6 +8,7 @@ export function Footer() {
         </div>
         <nav aria-label="Links do rodapé">
           <a href="#sobre">Sobre</a>
+          <a href="#linhagem">Linhagem</a>
           <a href="#galeria">Galeria</a>
           <a href="#videos">Vídeos</a>
           <a href="#contato">Contato</a>
