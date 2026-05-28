@@ -2,6 +2,7 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Stats } from '@/components/Stats'
 import { About } from '@/components/About'
+import { HostAcademy } from '@/components/HostAcademy'
 import { Lineage } from '@/components/Lineage'
 import { Gallery } from '@/components/Gallery'
 import { Videos } from '@/components/Videos'
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <About />
+      <HostAcademy />
       <Lineage />
       <Gallery />
       <Videos />
