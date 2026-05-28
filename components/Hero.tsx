@@ -13,7 +13,7 @@ export function Hero() {
       <div className="heroCopy">
         <p className="eyebrow fadeInUp">Do Brasil para o mundo.</p>
         <h1 className="fadeInUp delay-100">
-          Jiu-Jitsu de pressão, <span>técnica</span> e <span>legado.</span>
+          Jiu-jitsu de pressão, <span>técnica</span> e <span>legado.</span>
         </h1>
         <p className="heroText fadeInUp delay-200">{athlete.subheadline}</p>
         <div className="heroActions fadeInUp delay-300">
@@ -23,7 +23,7 @@ export function Hero() {
         <div className="heroProof fadeInUp delay-400" aria-label="Resumo da trajetória">
           <span>Double Gold European</span>
           <span>5º Dan faixa-preta</span>
-          <span>Base em Lisboa</span>
+          <span>Base em Paço de Arcos</span>
         </div>
       </div>
       <div className="heroVisual fadeInRight delay-200" aria-label="Ivan Leal JJ com medalhas">

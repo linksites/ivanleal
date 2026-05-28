@@ -1,12 +1,12 @@
 export const gallery = [
   {
     src: '/images/ivan-double-gold.jpeg',
-    alt: 'Ivan Leal com medalhas de ouro no European Jiu-Jitsu',
+    alt: 'Ivan Leal com medalhas de ouro no European Jiu-jitsu',
     caption: 'Double Gold European'
   },
   {
     src: '/images/ivan-podium-european.jpeg',
-    alt: 'Ivan Leal no pódio do European Jiu-Jitsu',
+    alt: 'Ivan Leal no pódio do European Jiu-jitsu',
     caption: 'Pódio internacional'
   },
   {

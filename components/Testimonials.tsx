@@ -1,7 +1,7 @@
 const pillars = [
   ['Pressão', 'Controle de distância, quedas, passagem e finalizações conectadas por tomada de decisão.'],
   ['Técnica', 'Ajustes simples, repetíveis e testados em competição para alunos de diferentes níveis.'],
-  ['Legado', 'Uma metodologia que preserva a raiz do Jiu-Jitsu brasileiro com leitura moderna de treino.']
+  ['Legado', 'Uma metodologia que preserva a raiz do Jiu-jitsu brasileiro com leitura moderna de treino.']
 ]
 
 export function Testimonials() {
