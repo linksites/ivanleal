@@ -40,7 +40,7 @@ export function Header() {
           handleLinkClick('#home')
         }}
       >
-        Ivan Leal<span>JJ</span>
+        <span className="brandText">Ivan Leal<span>JJ</span></span>
       </a>
 
       <nav className="nav" aria-label="Navegação principal">
