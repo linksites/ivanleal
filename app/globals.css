@@ -188,7 +188,7 @@ h2 span {
   z-index: -2;
   background:
     linear-gradient(90deg, rgba(2, 6, 13, .96) 0%, rgba(6, 20, 38, .92) 48%, rgba(7, 17, 31, .72) 100%),
-    url("/images/ivan-celebracao-1.jpeg") center 35% / cover;
+    var(--hero-bg) center 35% / cover;
 }
 
 .hero::after {

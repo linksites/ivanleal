@@ -1,9 +1,15 @@
 import Image from 'next/image'
+import type { CSSProperties } from 'react'
 import { athlete } from '@/data/athlete'
 
 export function Hero() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+  const heroStyle = {
+    '--hero-bg': `url("${basePath}/images/ivan-celebracao-1.jpeg")`
+  } as CSSProperties
+
   return (
-    <section id="home" className="hero sectionShell">
+    <section id="home" className="hero sectionShell" style={heroStyle}>
       <div className="heroCopy">
         <p className="eyebrow fadeInUp">{athlete.origin} para {athlete.base}</p>
         <h1 className="fadeInUp delay-100">
