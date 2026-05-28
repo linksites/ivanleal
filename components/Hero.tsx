@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section id="home" className="hero sectionShell" style={heroStyle}>
       <div className="heroCopy">
-        <p className="eyebrow fadeInUp">{athlete.origin} para {athlete.base}</p>
+        <p className="eyebrow fadeInUp">Do Brasil para o mundo.</p>
         <h1 className="fadeInUp delay-100">
           Jiu-Jitsu de pressão, <span>técnica</span> e <span>legado.</span>
         </h1>
