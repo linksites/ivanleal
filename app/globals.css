@@ -869,6 +869,22 @@ h2 {
   background: linear-gradient(180deg, rgba(2, 6, 13, .05), rgba(2, 6, 13, .86));
 }
 
+.videoCard--embed {
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+}
+
+/* sem overlay escuro no card de embed — o iframe tem o próprio player */
+.videoCard--embed::after { display: none; }
+
+.videoEmbed {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .videoCard img {
   height: 370px;
 }
