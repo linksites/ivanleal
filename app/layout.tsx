@@ -6,10 +6,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.url),
   title: siteMetadata.title,
   description: siteMetadata.description,
+  alternates: { canonical: '/' },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
     type: 'website',
+    url: siteMetadata.url,
+    locale: 'pt_BR',
     images: ['/images/ivan-double-gold.jpeg']
   }
 }

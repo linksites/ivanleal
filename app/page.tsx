@@ -14,20 +14,23 @@ import { Footer } from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <a className="skipLink" href="#conteudo">Ir para o conteúdo</a>
       <Header />
-      <Hero />
-      <Stats />
-      <About />
-      <HostAcademy />
-      <Lineage />
-      <Gallery />
-      <Videos />
-      <News />
-      <Achievements />
-      <Testimonials />
-      <CTA />
+      <main id="conteudo" tabIndex={-1}>
+        <Hero />
+        <Stats />
+        <About />
+        <HostAcademy />
+        <Lineage />
+        <Gallery />
+        <Videos />
+        <News />
+        <Achievements />
+        <Testimonials />
+        <CTA />
+      </main>
       <Footer />
-    </main>
+    </>
   )
 }

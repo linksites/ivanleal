@@ -1,6 +1,6 @@
 # Ivan Leal JJ - Site institucional
 
-Site institucional premium para o mestre e atleta Ivan Leal, faixa preta 5º grau de Jiu-jitsu, com base em Paço de Arcos, Portugal.
+Site institucional premium para o mestre e atleta Ivan Leal, faixa preta 6º grau de Jiu-jitsu, com base em Paço de Arcos, Portugal.
 
 O projeto foi construído em Next.js App Router, TypeScript e CSS global, com foco em presença profissional, responsividade, performance estática e preparação para futuras integrações.
 
@@ -65,7 +65,7 @@ components/
   HostAcademy.tsx       Dedicatória à Gracie Barra Paço de Arcos
   Lineage.tsx           Árvore técnica ligada a Alexey/De La Riva
   Gallery.tsx           Galeria com imagens existentes
-  Videos.tsx            Cards de vídeo preparados para integração
+  Videos.tsx            Tapes de lutas incorporados do YouTube
   Achievements.tsx      Conquistas e autoridade competitiva
   Testimonials.tsx      Metodologia/seminários
   CTA.tsx               Contato, Instagram e WhatsApp
@@ -102,7 +102,7 @@ Primeira dobra com:
 - destaque `Mestre Ivan Leal`;
 - headline `Jiu-jitsu de pressão, técnica e legado.`;
 - CTAs para seminário e galeria;
-- chips de prova social: Double Gold European, faixa preta 5º grau e base em Paço de Arcos.
+- chips de prova social: Double Gold European, faixa preta 6º grau e base em Paço de Arcos.
 
 ### Sobre
 
@@ -136,11 +136,11 @@ Grid responsivo com imagens reais da pasta `public/images`.
 
 ### Vídeos
 
-Cards visuais preparados para futura integração com Instagram, YouTube, Vimeo ou arquivos internos.
+Tapes de lutas incorporados do YouTube. Cada item deve ter um youtubeId real; não exibir cards ou durações fictícias.
 
 ### Conquistas
 
-Bloco institucional de resultados, incluindo faixa preta 5º grau, Double Gold European e experiência internacional.
+Bloco institucional de resultados, incluindo faixa preta 6º grau, Double Gold European e experiência internacional.
 
 ### Seminários e Metodologia
 
@@ -158,7 +158,7 @@ https://wa.me/351934519135
 ## Decisões de Conteúdo
 
 - Usar `Jiu-jitsu` como grafia padrão solicitada pelo cliente.
-- Usar `faixa preta 5º grau` em vez de nomenclaturas externas de graduação.
+- Usar `faixa preta 6º grau` em vez de nomenclaturas externas de graduação.
 - Substituir referências de localização para Paço de Arcos, Portugal.
 - Usar `Do Brasil para o mundo.` como frase de abertura.
 - Evitar texto genérico de template e manter tom institucional.

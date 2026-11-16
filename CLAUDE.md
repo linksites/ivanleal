@@ -26,7 +26,7 @@ npm run build    # gera /out (export estático)
 | `academy.ts` | Gracie Barra Paço de Arcos |
 | `lineage.ts` | Árvore técnica (Maeda → De La Riva → Alexey) |
 | `gallery.ts` | Itens da galeria |
-| `videos.ts` | Cards de vídeo (sem URL real ainda) |
+| `videos.ts` | Vídeos reais do YouTube (tapes de lutas) |
 
 Para atualizar o site, edite esses arquivos — sem banco de dados.
 
@@ -34,7 +34,7 @@ Para atualizar o site, edite esses arquivos — sem banco de dados.
 
 - Paleta: navy, preto, branco + dourado (autoridade) + vermelho (Gracie Barra)
 - Grafia padrão: `Jiu-jitsu` (não "jiu-jitsu" minúsculo, não "Jiu Jítsu")
-- Graduação: `faixa preta 5º grau` (não usar nomenclaturas externas)
+- Graduação: `faixa preta 6º grau` (não usar nomenclaturas externas)
 - Localização: Paço de Arcos, Portugal (Gracie Barra Paço de Arcos)
 - Logo GB: implementado em CSS (sem ativo oficial licenciado)
 - Frase de abertura: `Do Brasil para o mundo.`

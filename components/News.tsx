@@ -1,56 +1,49 @@
-import { newsItems, newsletterChannels } from '@/data/news'
+import { newsItems } from '@/data/news'
 
 export function News() {
+  const highlights = newsItems.filter(item => item.featured).slice(0, 3)
+  const archive = newsItems.filter(item => !highlights.includes(item))
   return (
     <section id="noticias" className="news sectionShell">
       <div className="sectionTitle fadeInUp">
         <div>
-          <p className="eyebrow">Notícias do Jiu-jitsu</p>
-          <h2>Um radar para acompanhar o movimento da arte suave.</h2>
+          <p className="eyebrow">Notícias e referências</p>
+          <h2>Resultados e calendário do jiu-jitsu</h2>
         </div>
         <p>
-          Curadoria de fontes, calendários e referências para atletas, alunos e
-          academias que acompanham o Jiu-jitsu dentro e fora do tatame.
+          Acompanhe competições em Portugal e no circuito internacional.
         </p>
       </div>
 
       <div className="newsLayout">
         <div className="newsGrid">
-          {newsItems.map((item, index) => (
+          {highlights.map((item, index) => (
             <article className="newsCard fadeInUp" style={{ animationDelay: `${(index + 1) * 0.1}s` }} key={item.title}>
               <div className="newsMeta">
                 <span>{item.category}</span>
-                <time>{item.date}</time>
+                {item.date && <time dateTime={item.date.iso}>{item.date.label}</time>}
               </div>
               <h3>{item.title}</h3>
               <p>{item.summary}</p>
               <a href={item.href} target="_blank" rel="noreferrer">
-                Ler em {item.source}
+                {item.source}
               </a>
             </article>
           ))}
         </div>
-
-        <aside className="newsletterBox fadeInRight delay-200" aria-label="Newsletter de notícias do Jiu-jitsu">
-          <span className="ctaLabel">Newsletter</span>
-          <h3>Receba o radar do tatame.</h3>
-          <p>
-            Curadoria para acompanhar campeonatos, seminários, técnica e
-            bastidores do Jiu-jitsu pelos canais oficiais Ivan Leal JJ.
-          </p>
-          <form className="newsletterForm">
-            <label htmlFor="newsletter-email">E-mail</label>
-            <div>
-              <input id="newsletter-email" name="email" type="email" placeholder="seuemail@exemplo.com" />
-              <button type="button" aria-disabled="true">Cadastrar</button>
-            </div>
-          </form>
-          <div className="newsletterTags">
-            {newsletterChannels.map((channel) => (
-              <small key={channel}>{channel}</small>
-            ))}
-          </div>
-        </aside>
+        {archive.length > 0 && (
+          <details className="newsArchive">
+            <summary>Mais notícias e referências ({archive.length})</summary>
+            <ul>
+              {archive.map(item => (
+                <li key={item.title}>
+                  <a href={item.href} target="_blank" rel="noreferrer">{item.title}</a>
+                  <small>{item.source}{item.date && <> · <time dateTime={item.date.iso}>{item.date.label}</time></>}</small>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
       </div>
     </section>
   )

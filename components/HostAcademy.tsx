@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { CSSProperties } from 'react'
 import { hostAcademy } from '@/data/academy'
 
@@ -11,15 +12,20 @@ export function HostAcademy() {
     <section id="base-portugal" className="hostAcademy" style={academyStyle}>
       <div className="sectionShell hostAcademyInner">
         <div className="hostAcademyCard fadeInLeft">
-          <div className="gbMark" aria-hidden="true">
-            <span>GB</span>
-          </div>
+          <Image
+            className="gbMark"
+            src={`${basePath}/images/gracie-barra-paco-de-arcos.jpeg`}
+            alt=""
+            width={104}
+            height={104}
+          />
           <p className="eyebrow">Base em Portugal</p>
           <h2>{hostAcademy.name}</h2>
           <p>{hostAcademy.dedication}</p>
+          <p>Rua Cândido dos Reis, nº 1, 2770-025 Paço de Arcos</p>
           <div className="hostAcademyActions">
-            <a className="button primary" href={hostAcademy.url} target="_blank" rel="noreferrer">
-              Visitar academia
+            <a className="button primary" href="https://www.graciebarra-pa.com/horarios" target="_blank" rel="noreferrer">
+              Ver horários das aulas
             </a>
             <a className="button outline" href={hostAcademy.teamUrl} target="_blank" rel="noreferrer">
               Ver equipe
@@ -29,7 +35,7 @@ export function HostAcademy() {
 
         <div className="hostAcademyContent fadeInRight delay-200">
           <span>{hostAcademy.location}</span>
-          <h3>Uma casa de treino, tradição e portas abertas.</h3>
+          <h3>Treino e formação em Paço de Arcos</h3>
           <p>{hostAcademy.summary}</p>
           <p>{hostAcademy.leadership}</p>
           <p>{hostAcademy.ivanConnection}</p>

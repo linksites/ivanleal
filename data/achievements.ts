@@ -1,6 +1,4 @@
 export const achievements = [
-  { value: '5º grau', label: 'Faixa preta', description: 'Graduação de mestre' },
-  { value: '2x', label: 'Nacional Open Champion', description: 'Campeão nacional em Portugal' },
-  { value: 'Double Gold', label: 'European Championship', description: 'Ouro no peso e no absoluto' },
-  { value: '15+ anos', label: 'Experiência internacional', description: 'Belém, Paço de Arcos e Europa' }
+  { value: '6º grau', label: 'Faixa preta', description: 'Graduação em jiu-jitsu' },
+  { value: 'Ouro duplo', label: 'Europeu IBJJF 2026', description: 'Superpesado e absoluto · Faixa preta Master 4' },
 ]

@@ -23,7 +23,13 @@ export function Footer() {
             WA
           </a>
         </div>
-        <p>&copy; 2026 Ivan Leal JJ. Todos os direitos reservados.</p>
+        <div className="footerFinePrint">
+          <p>&copy; 2026 Ivan Leal JJ. Todos os direitos reservados.</p>
+          <p>
+            Desenvolvimento por <a href="https://sergiorodrigues.dev.br/">Sérgio Rodrigues</a>, Analista de Sistemas e Desenvolvedor Full Stack JS
+            {' · '}<b>TechLab</b>
+          </p>
+        </div>
       </div>
     </footer>
   )

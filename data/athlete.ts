@@ -6,10 +6,9 @@ export const athlete = {
   base: 'Paço de Arcos, Portugal',
   headline: 'Jiu-jitsu de pressão, técnica e legado.',
   subheadline:
-    'Mestre faixa preta 5º grau, competidor internacional e Double Gold no European. De Belém para Paço de Arcos, Ivan Leal leva o Jiu-jitsu brasileiro a academias, eventos e atletas que buscam evolução real.',
+    'Faixa-preta de 6º grau, Ivan Leal conquistou dois ouros no Europeu IBJJF 2026, no superpesado e no absoluto da Master 4. De Belém a Paço de Arcos, leva a experiência de competidor às aulas e aos seminários.',
   bio: [
-    'Mestre Ivan Leal é faixa preta 5º grau de Jiu-jitsu, natural de Belém do Pará e radicado em Paço de Arcos, Portugal, onde atua na Gracie Barra. Sua trajetória combina competição, ensino e uma leitura apurada do combate.',
-    'Como atleta e professor, Ivan construiu uma metodologia baseada em pressão inteligente, controle posicional e tomada de decisão. O resultado é um Jiu-jitsu objetivo, técnico e aplicável para alunos e competidores.',
-    'A presença Ivan Leal JJ reúne trajetória, método e canais oficiais para seminários, aulas especiais, convites e contato direto com academias, atletas e equipes.'
+    'Natural de Belém do Pará, Ivan Leal é faixa-preta de 6º grau e aluno do mestre Alexey Pickerell, da linhagem de Ricardo De La Riva. Integra a equipe da Gracie Barra Paço de Arcos, em Portugal, desde 2019.',
+    'Nos treinos, Ivan ensina como usar a pressão para controlar posições e como decidir o próximo movimento a partir da reação do adversário. Ele leva essa abordagem a alunos de diferentes níveis e a atletas de competição.'
   ]
 }

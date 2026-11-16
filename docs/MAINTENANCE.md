@@ -83,7 +83,7 @@ Pontos importantes:
 ## Cuidados Editoriais
 
 - Manter `Jiu-jitsu` como grafia padrão.
-- Usar `faixa preta 5º grau`.
-- Não usar nomenclaturas externas de graduação no lugar de `faixa preta 5º grau`.
+- Usar `faixa preta 6º grau`.
+- Não usar nomenclaturas externas de graduação no lugar de `faixa preta 6º grau`.
 - Não afirmar relação de linhagem sem fonte.
 - Ao mencionar terceiros, preferir linguagem factual e baseada em fontes públicas.

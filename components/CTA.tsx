@@ -3,10 +3,10 @@ export function CTA() {
     <section id="contato" className="cta sectionShell">
       <div className="fadeInLeft">
         <p className="eyebrow">Contato</p>
-        <h2>Leve a metodologia Ivan Leal JJ para sua academia, evento ou seminário.</h2>
+        <h2>Convide Ivan Leal para sua academia</h2>
         <p>
-          Para convites, seminários, aulas especiais e parcerias, use os canais
-          oficiais e fale diretamente com a equipe Ivan Leal JJ.
+          Fale com a equipe Ivan Leal JJ para organizar um seminário, uma aula
+          especial ou uma parceria.
         </p>
       </div>
       <div className="ctaBox fadeInRight delay-200">
@@ -20,7 +20,6 @@ export function CTA() {
             WhatsApp
           </a>
         </div>
-        <small>Atendimento direto para seminários, aulas especiais, convites e parcerias com academias.</small>
       </div>
     </section>
   )
