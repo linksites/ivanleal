@@ -602,6 +602,8 @@ h2 {
 
 .gbMark {
   display: block;
+  width: clamp(116px, 12vw, 132px);
+  height: auto;
   margin-bottom: 18px;
   clip-path: ellipse(43.6% 45% at 49.3% 49.4%);
 }
