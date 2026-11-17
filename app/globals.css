@@ -473,7 +473,6 @@ h2 {
 
 .portraitCard,
 .achievementMedia,
-.galleryGrid figure,
 .videoCard,
 .quoteCard,
 .ctaBox {
@@ -880,20 +879,27 @@ h2 {
   color: var(--gold-2);
 }
 
-.galleryGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+.storyAlbum { display: grid; grid-template-columns: 3fr 2fr; overflow: hidden; border-radius: var(--radius); background: var(--navy); color: white; }
+.storyPhoto { position: relative; height: clamp(350px, 44vw, 530px); background: #07101b; touch-action: pan-y; }
+.storyPhoto img { object-fit: contain; animation: storyAppear .35s ease-out; }
+@keyframes storyAppear { from { opacity: .55; } to { opacity: 1; } }
+.storyPanel { display: flex; flex-direction: column; justify-content: space-between; padding: clamp(20px, 3vw, 46px); gap: 20px; }
+.storyPanel small { color: var(--gold-2); font-weight: 700; }
+.storyPanel h3 { margin: .5rem 0; font-size: clamp(1.35rem, 2.6vw, 2.6rem); line-height: 1.12; }
+.storySegments, .storyControls { display: flex; gap: 6px; }
+.storyAlbum button { color: inherit; cursor: pointer; }
+.storySegments button { flex: 1; height: 28px; border: 0; background: transparent; padding: 0; }
+.storySegments button::after { content: ''; display: block; height: 4px; background: #697687; border-radius: 2px; }
+.storySegments button[aria-current]::after { background: var(--gold-2); }
+.storyControls button { min-height: 44px; min-width: 44px; border: 1px solid #758292; background: transparent; border-radius: 5px; font: inherit; }
+.storyControls button:first-child { margin-right: auto; padding: 0 1rem; }
+@media (max-width: 700px) {
+  .storyAlbum { grid-template-columns: 1fr; }
+  .storyPhoto { height: clamp(250px, 85vw, 420px); }
+  .storyPanel { gap: 10px; }
+  .storyPanel h3 { min-height: 2.3em; }
 }
-
-.galleryGrid figure {
-  position: relative;
-  margin: 0;
-  overflow: hidden;
-  background: #111;
-  box-shadow: 0 16px 44px rgba(3, 15, 31, .14);
-}
-
+@media (prefers-reduced-motion: reduce) { .storyPhoto img { animation: none; } }
 .videoCard img {
   width: 100%;
   height: 100%;
@@ -903,22 +909,6 @@ h2 {
 
 .videoCard:hover img {
   transform: scale(1.04);
-}
-
-.galleryGrid img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: contain;
-  background: var(--navy);
-}
-
-.galleryGrid figcaption {
-  padding: 16px;
-  color: #fff;
-  font-size: .78rem;
-  font-weight: 900;
-  text-transform: uppercase;
 }
 
 .videos {
@@ -1504,7 +1494,6 @@ time {
   .academyDetailGrid small { min-height: 0; }
   .newsLayout { grid-template-columns: 1fr; }
   .newsGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .galleryGrid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 900px) {
@@ -1551,7 +1540,6 @@ time {
   .lineageTrack,
   .videoGrid,
   .testimonialGrid,
-  .galleryGrid,
   .newsGrid { grid-template-columns: 1fr; }
   .stats { margin-top: -34px; }
   .statCard { min-height: 0; }
