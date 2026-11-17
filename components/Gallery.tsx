@@ -8,7 +8,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export function Gallery() {
   const [index, setIndex] = useState(0)
-  const [playing, setPlaying] = useState(false)
+  const [playing, setPlaying] = useState(true)
   const [visible, setVisible] = useState(false)
   const [activeTab, setActiveTab] = useState(true)
   const frame = useRef<HTMLDivElement>(null)
