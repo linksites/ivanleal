@@ -16,18 +16,13 @@ export function Gallery() {
   const photo = gallery[index]
 
   useEffect(() => {
-    const motion = window.matchMedia('(prefers-reduced-motion: reduce)')
-    const syncMotion = () => setPlaying(!motion.matches)
     const syncTab = () => setActiveTab(!document.hidden)
-    syncMotion()
     syncTab()
     const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting))
     if (frame.current) observer.observe(frame.current)
-    motion.addEventListener('change', syncMotion)
     document.addEventListener('visibilitychange', syncTab)
     return () => {
       observer.disconnect()
-      motion.removeEventListener('change', syncMotion)
       document.removeEventListener('visibilitychange', syncTab)
     }
   }, [])
