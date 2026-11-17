@@ -1,4 +1,5 @@
 import { newsItems } from '@/data/news'
+import { CircuitNews } from './CircuitNews'
 
 export function News() {
   const highlights = newsItems.filter(item => item.featured).slice(0, 3)
@@ -31,6 +32,7 @@ export function News() {
             </article>
           ))}
         </div>
+        <CircuitNews />
         {archive.length > 0 && (
           <details className="newsArchive">
             <summary>Mais notícias e referências ({archive.length})</summary>
