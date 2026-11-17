@@ -1,5 +1,10 @@
 export const gallery = [
   {
+    src: '/images/ivan-nacional-open-2026.webp',
+    alt: 'Ivan Leal sorri de quimono branco e segura duas medalhas do Nacional Open',
+    caption: 'Campeão do absoluto Master 4 no Nacional Open de Portugal 2026'
+  },
+  {
     src: '/images/ivan-double-gold.jpeg',
     alt: 'Ivan Leal com as duas medalhas de ouro do Europeu IBJJF 2026',
     caption: 'Ouro duplo no Europeu IBJJF 2026'
